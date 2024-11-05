@@ -1,0 +1,88 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #4CAF50;
+    color: #fff;
+}
+/* About Section styling */
+#about {
+    padding: 20px;
+    text-align: left;
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.about-image {
+    width: 190px;   /* Adjust size as needed */
+    height: 220px;
+    border-radius: 8px;  /* Optional: add rounded corners */
+}
+
+#about p {
+    max-width: 600px;  /* Limit the text width for better readability */
+}
+
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+.project {
+    margin-bottom: 15px;
+}
+
+/* Contact section styling */
+#contact a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+}
